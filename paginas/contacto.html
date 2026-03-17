@@ -24,40 +24,55 @@
                 <img src="../img/telefono.png" alt="Teléfono">
             </a>
 
-            <a href="usuario.html">
+            <a href="servicio.html">
                 <img src="../img/persona.png" alt="Usuario">
             </a>
 
         </div>
 
-        <div class="noticias">
-            <h2>Noticias Servientrega</h2>
+        <h2 style="text-align: center;">Formulario de Contacto</h2>
+        <form action="#">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
-            <p>Servientrega mejora sus tiempos de entrega en todo el país gracias a su red logística.</p>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
 
-            <p>Ahora los clientes pueden rastrear sus envíos en línea de forma rápida y segura.</p>
+        <label for="tipo_doc">Tipo de documento</label>
+        <select id="tipo_doc" name="tipo_doc">
+            <option value="CC">Cédula de ciudadanía</option>
+            <option value="TI">Tarjeta de identidad</option>
+            <option value="CE">Cédula de extranjería</option>
+        </select>
 
-            <p>Nuevos puntos de atención han sido habilitados para facilitar el envío de paquetes.</p>
+        <label for="num_doc">Número de documento</label>
+        <input type="number" id="num_doc" name="num_doc" placeholder="Digita SU número" required>
 
-            <p>Servientrega continúa innovando para ofrecer mejores soluciones de mensajería.</p>
-        </div>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="gmail@correo.com" required>
+
+        <input type="submit" value="Enviar Registro">
+        </form>
 
          <footer>
             <div class="redes">
-                <a href="https://www.facebook.com/">
+                <a href="https://web.facebook.com/Servientrega.ms">
                 <img src="../img/facebook.png" alt="Facebook">
                 </a>
 
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/servientrega.ms/">
                 <img src="../img/instagram.png" alt="Instagram">
                 </a>
 
-                <a href="https://www.twitter.com/">
+                <a href="https://x.com/Servientrega_ms">
                 <img src="../img/twitter.png" alt="Twitter">
                 </a>
             </div>
 
             <p>&copy; 2024 Servientrega. pagina web creada por jhojan dodino, kelly criado, helena serrano </p>
+            <audio controls>
+                <source src="../Musica/I WANNA BE YOUR.mp3" type="audio/mpeg">
+            </audio>
         </footer>
     </div>
 </body>
